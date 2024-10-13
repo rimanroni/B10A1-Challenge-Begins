@@ -31,7 +31,7 @@ nav {
 /* banner part */
 #banner-section {
   margin-top: 20px;
-  background: url("/assest/Hero-bg.png");
+  background-image: url("/assest/Hero-bg.png");
   padding: 20px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -222,7 +222,7 @@ nav {
 }
 /* Support-Section */
 #Support-Section{
-    background:   url('/assest/handshake.jpg');
+     background:url('/assest/handshake.jpg');
     padding: 20px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -237,7 +237,7 @@ nav {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.Support-Section .title, .description{
+#Support-Section .title, .description{
     color: white;
     text-align: center;
 }
