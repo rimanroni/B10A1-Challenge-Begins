@@ -64,3 +64,71 @@ nav {
   font-size: 17px;
   cursor: pointer;
 }
+/* development part  */
+.development-area{
+    border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+margin-top: 40px;
+margin-bottom: 20px;
+padding-top: 50px;
+padding-bottom: 50px;
+padding-right: 20px;
+padding-left: 20px;
+
+display: flex;
+flex-direction: column;
+gap: 40px;
+ 
+}
+.development-title{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.development-description{
+    text-align: center;
+}
+.development-boxarea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 10px;
+    
+}
+.development-boxarea div{
+    width: 50%;
+}
+.development-boxarea-img{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.development-boxarea-content h1{
+    color: rgba(7, 10, 19, 0.7);
+     font-size: 24px;
+     font-weight: 700;
+     line-height: 34px;
+     margin-bottom: 20px;
+ }
+ .development-boxarea-content p{
+    margin-bottom: 20px;
+ }
+ .development-boxarea-content button{
+    border: 1px solid #0D1321;
+     padding: 10px 30px;
+     cursor: pointer;
+ }
+ .boxarea-imgone{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+ }
+ .development-boxarea-box-one{
+    background-color: #fff;
+    padding: 20px ;
+    border-radius: 10px;
+    margin-top: 20px;
+   padding-bottom: 20px;
+
+ }
