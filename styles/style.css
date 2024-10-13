@@ -1,4 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
+/*  css font link here  */
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Azeret Mono", monospace;
+  background: #fff;
+}
+/* custom css class */
+.container {
+  width: 1200px;
+  margin: auto;
+}
+/* navbar  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  align-items: center;
+}
+.nav-button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #0d1321;
+  cursor: pointer;
+}
+/* banner part */
+.banner-section {
+  margin-top: 20px;
+  background: url("/assest/Hero-bg.png");
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.header-content h1 {
+  color: #0d1321;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 800;
+}
+.header-content p {
+  text-align: center;
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+}
+.header-content button {
+  border-radius: 8px;
+  background: #0d1321;
+  color: white;
+  padding: 15px 40px;
+  font-size: 17px;
+  cursor: pointer;
 }
